@@ -1,0 +1,15 @@
+{
+  "run_list": [
+    "role[base]"
+  ],
+  "site_user": {
+    "username": "[USERNAME]",
+    "ssh_keys": ["[SSH_KEY]"]
+  },
+  "authorization": {
+    "sudo": {
+      "users": ["[USERNAME]"],
+      "passwordless": "ture"
+    }
+  }
+}
